@@ -1,0 +1,114 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/*===== BASE =====*/
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    min-width: 320px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--first-color-lighter);
+    color: red;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+p {
+    line-height: 1rem;
+}
+
+h3 {
+    font-weight: var(--font-semi-bold);
+}
+
+a {
+    display: inline-block;
+    background-color: #3f590b;
+    color: #dce908;
+    padding: 1rem 2rem;
+    font-weight: var(--font-semi-bold);
+    border-radius: 0.5rem;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: ;
+}
+
+a:hover {
+    background-color: #dce908;
+    color: #3f590b;
+}
+
+.button {
+}
+
+.section {
+}
+
+.img-section {
+    margin: 0 auto;
+    height: ;
+    width: 100vw;
+}
+
+h2 {
+    margin: 2rem 0;
+}
+/*======= THANKS ========*/
+
+.thanks {
+    border: 2px solid red;
+    height: 100vh;
+    width: 100vw;
+}
+/* .thanks {
+    background-image: url("/images/alexas_fotos-thank-you-2400-1600.jpg");
+    background-position: 50% 50%;
+
+    height: 100vh;
+    width: 100vw;
+} */
+
+.thanks__container {
+    margin: 0rem auto;
+    /* position: absolute;
+    top: 30%;
+    left: 50%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pt__link {
+    background-color: transparent;
+    margin: 2rem 0;
+}
+.pt__vector {
+    height: 6rem;
+    width: 15rem;
+}
+
+.return {
+    margin-top: 2rem 0 10rem 0;
+}
