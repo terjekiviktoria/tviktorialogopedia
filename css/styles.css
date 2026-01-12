@@ -271,7 +271,7 @@ img {
     background-color: var(--first-color);
     border-radius: 50%;
     overflow: hidden;
-    margin-top: 40px;
+    margin-top: var(--mb-2);
     margin-bottom: var(--mb-2);
 }
 
