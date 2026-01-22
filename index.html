@@ -16,7 +16,7 @@
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="css/styles.css" />
 
-    <!-- ===== Google tag (gtag.js) ===== -->
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17896904206"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -24,7 +24,6 @@
       gtag('js', new Date());
       gtag('config', 'AW-17896904206');
     </script>
-    <!-- ===== End Google tag ===== -->
   </head>
 
   <body>
@@ -65,8 +64,594 @@
       </nav>
     </header>
 
-    <!-- A BODY TÖBBI RÉSZE VÁLTOZATLAN -->
-    <!-- (pontosan az marad, amit küldtél) -->
+    <main class="main">
+      <!--===== HOME =====-->
+      <section class="home" id="home">
+        <!-- IDE KERÜLT BE A MOTTÓ BUBORÉK -->
+        <div class="quote-bubble">
+          <p class="quote-text">
+            „Tudományos alapokon nyugvó, modern szemléletű logopédiai ellátás
+            a nehezen érthető és súlyosan érthetetlen beszéd hatékony kezelésére már 2-3 éves kortól.”
+          </p>
+        </div>
+
+        <div class="home__container grid">
+          <div class="home__data">
+            <div class="home__img">
+              <img
+                src="images/profil.jpg"
+                alt="Terjéki Viktória portré"
+                loading="eager"
+              />
+            </div>
+
+            <h1 class="home__title">Terjéki Viktória</h1>
+            <span class="home__profession">
+              Logopédus, okleveles kognitív idegtudományi kutató, DTTC és PROMPT
+              terapeuta
+            </span>
+
+            <a href="#contact" target="_self" class="button home__button">
+              Kapcsolatfelvétel
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">Rólam</h2>
+        <div class="about__container grid">
+          <div class="about__data">
+            <p class="about__description">
+              Az ELTE Bárczi Gusztáv Gyógypedagógiai Karán végeztem
+              logopédia szakirányon. A gyakorlati munka mellett már korán a
+              beszéd idegrendszeri és kognitív háttere kezdett érdekelni, ezért
+              tanulmányaimat a Budapesti Műszaki és Gazdaságtudományi Egyetem
+              Számítógépes és Kognitív Idegtudomány mesterképzésén folytattam.
+              Jelenleg doktori tanulmányaimat végzem az ELTE-n, kutatási
+              területem a súlyosan érthetetlen beszéd, ezen belül a gyermekkori
+              beszédapraxia (Childhood Apraxia of Speech – CAS).
+            </p>
+
+            <p class="about__description">
+              Szakmai szemléletemet meghatározó módon formálta az Egyesült
+              Államokban szerzett képzési és szakmai tapasztalat, ahol a
+              gyermekkori beszédapraxia és nehezen érthető beszéd korszerű diagnosztikai és terápiás
+              megközelítéseivel ismerkedtem meg. Terápiás munkámban kizárólag
+              tudományosan megalapozott, nemzetközileg elfogadott,
+              evidenciaalapú módszereket alkalmazok, különös hangsúlyt fektetve
+              a beszédmotoros tervezés és kivitelezés fejlesztésére.
+            </p>
+
+            <p class="about__description">
+              Munkám során minden gyermekkel kizárólag egyéni, személyre szabott terápiás
+              folyamatban dolgozom, amely az aktuális beszédmotoros–fonológiai
+              fejlettséghez és idegrendszeri állapothoz igazodik. Célom nem
+              csupán a beszédhangok javítása, hanem a stabil, érthető,
+              funkcionális beszéd kialakítása. Hiszek az átlátható,
+              együttműködésen alapuló terápiában, ahol a szülők pontosan értik,
+              mi miért történik, és ahol a gyermek biztonságos, támogató
+              közegben fejlődhet.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== TRAINING / KÉPZÉSEIM =====-->
+      <section class="section" id="training">
+        <h2 class="section-title">Képzéseim</h2>
+
+        <div class="training__container">
+          <h3 class="training__subtitle">Képzések, szakmai tréningek</h3>
+          <ul class="training__list">
+            <li class="training__item">
+              LogoTech+ Kft. – SZÓL-E? Szűrőeljárás az óvodáskori logopédiai
+              ellátáshoz
+            </li>
+            <li class="training__item">
+              VoiceBalance KHT – Komplex hangterápia a tiszta fonációért
+              (diszfónia kezelése)
+            </li>
+            <li class="training__item">
+              A dadogás komplex kezelése gyermek- és felnőttkorban –
+              Démoszthenész Egyesület (önkéntes segítő)
+            </li>
+            <li class="training__item">
+              Dysphagia Awareness Training – Certificate (angol nyelvű online
+              képzés)
+            </li>
+            <li class="training__item">
+              LingualBalance OTKM – orofaciális taktilis-kinesztéziás
+              mioterápia a szabályos nyelésfunkcióért
+            </li>
+            <li class="training__item">
+              LOGOMANIA – Effektive Aphasietherapie Praktisch Durchführen
+              (német nyelvű képzés)
+            </li>
+            <li class="training__item">
+              Child Apraxia Treatment - Dynamic Temporal and Tactile Cueing – haladó képzés (Puyallup,
+              Washington, angol nyelvű képzés)
+            </li>
+            <li class="training__item">
+              Introduction to PROMPT technique (angol nyelvű képzés)
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--===== SERVICES =====-->
+      <section class="services section" id="services">
+        <h2 class="section-title">Miben segíthetek?</h2>
+
+        <div class="services__container grid">
+          <!-- 1. blokk -->
+          <div class="services__content">
+            <i class="bx bx-group services__icon"></i>
+            <h3 class="services__title">
+              Hogyan segít gyermekének az új szemléletű logopédia?
+            </h3>
+            <p class="services__description">
+              A részletes, több szinten zajló diagnosztikát követően a lehető
+              legszemélyre-szabottabb fejlesztési tervet állítom össze. A
+              választott módszerek minden eleme tudományosan alátámasztott,
+              nemzetközi irányelvekre épül. Így nem csupán a fejlődés
+              gyorsítását célozzuk, hanem a gyermek beszédének pontossága,
+              érthetősége és kommunikációs magabiztossága is tartósan javul.
+            </p>
+            <p class="services__description">
+              A terápiában konkrét, mérhető célok mentén haladunk (például
+              beszédhangképzés stabilizálása több szótagos szavakban, átültetés
+              hétköznapi kommunikációs helyzetekbe), és a szülők is gyakorlati
+              útmutatást kapnak. Így a fejlődés nemcsak a terápiás szobában,
+              hanem a mindennapokban is megjelenik – csökken a frusztráció,
+              bátrabbá válik a kommunikáció és könnyebb lesz a társas beilleszkedés.
+            </p>
+
+            <button class="services__toggle">
+              <i class="bx bx-chevron-down-circle chevron-down"></i>
+              <i class="bx bx-chevron-up-circle chevron-up"></i>
+            </button>
+          </div>
+
+          <!-- 2. blokk – Milyen beszédhangjavító terápiákkal dolgozom? -->
+          <div class="services__content">
+            <i class="bx bx-universal-access services__icon"></i>
+
+            <h3 class="services__title">Milyen beszédhangjavító-terápiákkal dolgozom?</h3>
+
+            <p class="services__description">
+              Az új szemlélet szerint az „artikulációs zavar” egy nagyon szűk
+              beszédhanghiba-kategória. A gyermekeknek csak kis része profitál
+              igazán hatékonyan a hazai gyakorlatban még mindig egyeduralkodó,
+              hagyományos artikulációs terápiából. Nálam a részletes, tudományos
+              alapokon nyugvó diagnosztika teszi lehetővé, hogy mindig azt a
+              terápiás utat válasszuk, amely valóban a gyermek nehézségének
+              gyökerére hat. A fejlődést az alábbi módszerek egyénre szabott
+              kombinációjával érjük el, amelyek többsége tudományosan alátámaszottan már egészen 2-3 éves kor körültől hatékonyan alkalmazható:
+            </p>
+
+            <div class="services__description">
+              <div class="therapy-block">
+                <h4 class="therapy-title">Artikulációs terápia (új szemléletben)</h4>
+                <p class="therapy-text">
+                  Nem a hagyományos értelemben vett „hanggyakorlós” terápiáról
+                  beszélünk. Az elterjedt módszerek több eleme ma már
+                  tudományosan megkérdőjelezett. Az általam alkalmazott szemlélet a
+                  hagyományos szakirodalom erősségeire támaszkodik, de nem hangsúlyozza túl
+                  a nem evidencia alapú elemeket – például az ajak- és
+                  nyelvgyakorlatok (valójában) csekély szerepét.
+                </p>
+                <p class="therapy-text">
+                  A terápia a motoros tanulás elveire épülő, jól felépített
+                  szakaszokon vezet végig (kognitív szakasz – asszociatív szakasz –
+                  autonóm szakasz). A cél, hogy a beszédhang kialakítását követően
+                  minél gyorsabban eljussunk a természetes beszédhelyzetekig, majd a
+                  spontán beszédig, elkerülve a felesleges lépéseket.
+                </p>
+              </div>
+
+              <div class="therapy-block">
+                <h4 class="therapy-title">Magszókincs-terápia</h4>
+                <p class="therapy-text">
+                  Meghatározott terápiás irányelvek mentén heti 10 célzott szó
+                  gyakorlása zajlik több héten keresztül. Ennek eredményeként a
+                  fonológiai rendszer fokozatos stabilizálódását várjuk, vagyis
+                  a beszéd érthetősége kézzelfoghatóan javul. Különösen azoknak
+                  a gyermekeknek ajánlott, akik nagyon nehezen érthető beszéddel
+                  érkeznek.
+                </p>
+              </div>
+
+              <div class="therapy-block">
+                <h4 class="therapy-title">Ciklikus célelrendezés-terápia</h4>
+                <p class="therapy-text">
+                  Hétről hétre különböző fonológiai folyamatokat célzunk meg
+                  (például szóvégi hangok elhagyása, zárhangúsítás), így a
+                  fonológiai rendszer fokozatos, rendszerszintű újraszervezése
+                  valósul meg. Olyan gyermekeknél javasolt, akiknél szintén
+                  csökkent a beszédérthetőség, de a beszéd már valamelyest
+                  stabilabb.
+                </p>
+              </div>
+
+              <div class="therapy-block">
+                <h4 class="therapy-title">Minimálispár-terápia</h4>
+                <p class="therapy-text">
+                  Egymáshoz nagyon hasonló, de jelentésben eltérő szópárokkal
+                  (pl. „szó – só”) segítjük a gyermeknek felismerni, mennyire
+                  fontos a hangok közti finom különbségek pontos használata. A
+                  gyermek saját belátására építő tanulást támogatja, így a
+                  spontán beszéd pontossága is javul.
+                </p>
+              </div>
+
+              <div class="therapy-block">
+                <h4 class="therapy-title">Többszörös kontraszt terápia</h4>
+                <p class="therapy-text">
+                  A minimálispár-terápiához hasonló elven működik, de elsősorban
+                  azoknál a gyermekeknél alkalmazzuk, akiknél szisztematikus
+                  hangpreferencia figyelhető meg – több hang helyett egy
+                  „kedvelt” hangot használnak (pl. /sz, s, zs, cs, f, v/ helyett /j/ hangot). A cél a hangmegkülönböztetés
+                  tudatosítása és stabilizálása.
+                </p>
+              </div>
+
+              <div class="therapy-block">
+                <h4 class="therapy-title">Complexity Approach</h4>
+                <p class="therapy-text">
+                  A fonológiai rendszer stabilizálását a bonyolultabb struktúrák
+                  felől indítjuk („felülről lefelé” szerveződés). Célja, hogy a
+                  magasabb szintű mintázatok rendezése a rendszer többi elemének
+                  stabilizálódását is elősegítse.
+                </p>
+              </div>
+
+              <div class="therapy-block">
+                <h4 class="therapy-title">PROMPT</h4>
+                <p class="therapy-text">
+                  Taktilis-haptikus (érintésen alapuló) facilitációs módszer,
+                  amely meghatározott érintésekkel segíti a beszédmozgások pontos
+                  időzítését és irányítását. A cél, hogy a beszédszervek rávezetés
+                  útján találják meg a megfelelő mozgásmintát.
+                </p>
+              </div>
+
+              <div class="therapy-block">
+                <h4 class="therapy-title">DTTC (Dynamic Temporal and Tactile Cueing)</h4>
+                <p class="therapy-text">
+                  Kifejezetten azoknál a gyermekeknél alkalmazzuk, akiknél
+                  motoros beszédtervezési nehézség (pl. CAS) áll a háttérben.
+                  Intenzív ismétlésekre, fokozatosan csökkentett segítségadásra
+                  épülő hierarchikus rendszer, amely a beszédprodukció
+                  stabilizálását célozza.
+                </p>
+              </div>
+
+              <div class="therapy-block">
+                <h4 class="therapy-title">ReST (Rapid Syllable Transition Training)</h4>
+                <p class="therapy-text">
+                  A hangsúlyváltások, szótagátmenetek és beszédritmus
+                  fejlesztését célozza. Különösen hatékony prozódiai és átmeneti
+                  tervezési nehézségek esetén, segítve a természetesebb,
+                  folyamatosabb beszédkivitelezést.
+                </p>
+              </div>
+            </div>
+
+            <button class="services__toggle">
+              <i class="bx bx-chevron-down-circle chevron-down"></i>
+              <i class="bx bx-chevron-up-circle chevron-up"></i>
+            </button>
+          </div>
+
+          <!-- 3. blokk – Egyéb terápiák -->
+          <div class="services__content">
+            <i class="bx bx-health services__icon"></i>
+
+            <h3 class="services__title">Egyéb terápiák</h3>
+
+            <p class="services__description">
+              Kifejezett specializációm a nehezen érthető és súlyosan
+              érthetetlen beszéd, de mindezek mellett más terápiák is
+              rendelkezésre állnak nálam – gyermekek és felnőttek számára
+              egyaránt.
+            </p>
+
+            <div class="services__description">
+              <div class="therapy-block">
+                <h4 class="therapy-title">Komplex nyelvi fejlesztés</h4>
+                <p class="therapy-text">
+                  Olyan gyermekek számára, akiknél nem csak a beszédhhangképzés, hanem
+                  a szókincs, a mondatalkotás, a nyelvtan vagy a szövegalkotás
+                  területén is elmaradás figyelhető meg. A fejlesztés játékos,
+                  kommunikáció-központú, és a mindennapi élethelyzetekhez
+                  kapcsolódó feladatokon keresztül segíti a beszélt és értett
+                  nyelv fejlődését.
+                </p>
+              </div>
+
+              <div class="therapy-block">
+                <h4 class="therapy-title">Diszlexia prevenció és reedukáció</h4>
+                <p class="therapy-text">
+                  Az olvasási nehézségek megelőzésében és fejlesztésében a hangsúly a nyelvi alapok tudatos erősítésén van.
+                  Óvodás korban játékos formában segítjük a későbbi olvasást megalapozó készségek fejlődését,
+                  iskolás korban pedig célzott fejlesztéssel támogatjuk az olvasási nehézségekkel küzdő gyermekeket.
+                  A munka a komplex nyelvi fejlesztésre és a Meixner-módszer alapelveire épül,
+                  hogy a gyermek magabiztosabbá váljon az olvasásban és a tanulásban.
+                </p>
+              </div>
+
+              <div class="therapy-block">
+                <h4 class="therapy-title">Nyelvlökéses nyelés terápiája</h4>
+                <p class="therapy-text">
+                  Nyelvlökéses nyelés esetén a nyelv ismétlődően a fogak közé
+                  vagy a fogsorra tolódik, ami hosszú távon fogszabályozási és
+                  artikulációs problémákhoz is vezethet. A terápia célja a
+                  szabályos nyelésminta, a helyes nyelvpozíció és az orofaciális
+                  izomegyensúly kialakítása.
+                </p>
+                <p class="therapy-text">
+                  8 éves kortól egészen felnőttkorig vállalok pácienseket;
+                  gyakran fogszabályozó kezelést kiegészítő terápiaként is
+                  működünk együtt.
+                </p>
+              </div>
+
+              <div class="therapy-block">
+                <h4 class="therapy-title">Felnőtt logopédiai terápiák (stroke utáni ellátás)</h4>
+                <p class="therapy-text">
+                  Stroke-on átesett pácienseknél a beszéd és a nyelés több
+                  területe érintett lehet: afázia, beszédapraxia, dizartria,
+                  dysphagia. A terápia az aktuális neurológiai állapothoz
+                  igazodik, célja a kommunikációs önállóság és az életminőség
+                  javítása, a meglévő erőforrások maximális kihasználásával.
+                </p>
+              </div>
+
+              <div class="therapy-block">
+                <h4 class="therapy-title">Diszfónia terápia</h4>
+                <p class="therapy-text">
+                  Rekedtség, fáradékony hang, beszéd utáni torokfájdalom esetén
+                  a hangterápia a helyes légzés- és hangképzési technika
+                  kialakítására, a gége és a test funkcionális egyensúlyának
+                  helyreállítására épül. Cél a tartósan terhelhető, tiszta,
+                  természetes hangképzés.
+                </p>
+              </div>
+
+              <!-- JAVÍTVA: hiányzó záró tagek -->
+              <div class="therapy-block">
+                <h4 class="therapy-title">Hallássérült / cochlearis implantáción átesett gyermekek beszédfejlesztése</h4>
+                <p class="therapy-text">
+                  Ezeknél a gyermekeknél a beszédfejlődés támogatásában kiemelten fontos a beszédmozgások pontos,
+                  érzékszervi visszacsatoláson alapuló megtapasztalása. A terápiában meghatározó szerepet kap a PROMPT-terápia,
+                  amely taktilis (érintéses) rávezetéssel segíti a gyermekeket abban, hogy könnyebben érzékeljék és megértsék
+                  a beszédhez szükséges mozgásmintákat, stabilabban kivitelezzék a beszédhangképzést, javuljon a beszédérthetőség
+                  és a beszédmozgások koordinációja.
+                </p>
+                <p class="therapy-text">
+                  A cél nem pusztán a beszédhangok „megtanítása”, hanem az, hogy a gyermek biztonságos,
+                  testérzékelésen alapuló beszédmotoros tapasztalatokra építve tudjon fejlődni.
+                </p>
+              </div>
+
+              <!-- JAVÍTVA: hiányzó záró tagek -->
+              <div class="therapy-block">
+                <h4 class="therapy-title">Ajak- és szájpadhasadékkal született gyermekek beszédfejlesztése</h4>
+                <p class="therapy-text">
+                  A fejlesztés középpontjában a rezonancia, a levegőáramlás és az artikuláció összehangolt újraszervezése áll.
+                  A Sandra Neumann-féle megközelítés a funkcionális beszédlégzésre és a levegő megfelelő irányítására épül,
+                  célzottan kezeli a nazalitást, orrlégzési kompenzációkat és helyettesítő artikulációs gesztusokat, így
+                  a beszédmozgások fokozatos, tudatosított újraprogramozását támogatja.
+                </p>
+                <p class="therapy-text">
+                  A terápiában a gyermek test- és mozgásérzékelésére építünk, így nem csupán „hangokat gyakorlunk”,
+                  hanem a beszédkivitelezés teljes folyamatát segítjük stabilabb, funkcionálisabb minták felé.
+                  Ez a megközelítés különösen hatékony azoknál a gyermekeknél, akiknél a műtétet követően is fennmaradnak
+                  beszédkivitelezési sajátosságok.
+                </p>
+              </div>
+            </div>
+
+            <button class="services__toggle">
+              <i class="bx bx-chevron-down-circle chevron-down"></i>
+              <i class="bx bx-chevron-up-circle chevron-up"></i>
+            </button>
+          </div>
+
+          <!-- 4. blokk – Árak -->
+          <div class="services__content">
+            <i class="bx bx-credit-card services__icon"></i>
+
+            <h3 class="services__title">Árak</h3>
+
+            <div class="services__description">
+              <div class="price-group">
+                <h4 class="price-title">Vizsgálatok</h4>
+                <ul class="price-list">
+                  <li class="price-item">
+                    <span class="price-name">Beszédhanghibák részletes feltárása</span>
+                    <span class="price-amount">35 000 Ft</span>
+                  </li>
+                  <li class="price-item">
+                    <span class="price-name">Komplex nyelvi felmérés</span>
+                    <span class="price-amount">30 000 Ft</span>
+                  </li>
+                  <li class="price-item">
+                    <span class="price-name">
+                      Teljeskörű felmérés (beszédhanghibák + komplex nyelvi felmérés)
+                    </span>
+                    <span class="price-amount">45 000 Ft</span>
+                  </li>
+                  <li class="price-item">
+                    <span class="price-name">Nyelvlökéses nyelés vizsgálata (felnőtt és gyermek)</span>
+                    <span class="price-amount">25 000 Ft</span>
+                  </li>
+                  <li class="price-item">
+                    <span class="price-name">Diszfónia vizsgálata</span>
+                    <span class="price-amount">25 000 Ft</span>
+                  </li>
+                  <li class="price-item">
+                    <span class="price-name">
+                      Felnőttek beszéd- és nyelvi képességeinek vizsgálata
+                      (stroke, neurodegeneratív eredetű állapotok)
+                    </span>
+                    <span class="price-amount">30 000 Ft</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="price-group">
+                <h4 class="price-title">Terápiák</h4>
+                <ul class="price-list">
+                  <li class="price-item">
+                    <span class="price-name">Rendszeres logopédiai terápiák</span>
+                    <span class="price-amount">16 000 Ft / alkalom</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <button class="services__toggle">
+              <i class="bx bx-chevron-down-circle chevron-down"></i>
+              <i class="bx bx-chevron-up-circle chevron-up"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== BEJELENTKEZÉS KÉP ===== -->
+      <section class="img-section">
+        <img
+          src="images/bejelentkezes.png"
+          alt="Bejelentkezés illusztráció"
+          loading="lazy"
+        />
+      </section>
+    </main>
+
+    <!--===== FOOTER / CONTACT =====-->
+    <footer class="footer" id="contact">
+      <div class="footer__container">
+        <section class="contact section">
+          <div class="contact__description">
+            <h2 class="contact__title">Kapcsolat</h2>
+
+            <p class="contact__text">
+              Amennyiben úgy érzi, gyermekének vagy Önnek logopédiai
+              támogatásra van szüksége, szívesen állok rendelkezésére.
+              Időpontfoglalás és további információ e-mailben vagy telefonon.
+              Amennyiben azt szeretnék, hogy én vegyem fel önökkel a
+              kapcsolatot, töltsék ki az alábbi űrlapot, és hamarosan
+              jelentkezem! :) (Ha a beküldés után a szöveg eltűnik a mezőkből, az üzenet sikeresen el lett küldve!)
+            </p>
+          </div>
+
+          <div class="contact__info flex">
+            <div class="contact__group">
+              <h3 class="contact__subtitle">Telefon</h3>
+              <a href="tel:+36 70 359 9027" class="contact__link">+36 70 359 9027</a>
+            </div>
+
+            <div class="contact__group">
+              <h3 class="contact__subtitle">E-mail</h3>
+              <a href="mailto:tviktorialogopedia@gmail.com" class="contact__link">
+                tviktorialogopedia@gmail.com
+              </a>
+            </div>
+
+            <div class="contact__group">
+              <h3 class="contact__subtitle">A foglalkozások helye</h3>
+              <ul class="contact__list">
+                <li class="contact__item">Budapest, Jókai tér 3, 1061</li>
+                <li class="contact__item">ClimBee Képességfejlesztő Ház</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="contact__container grid">
+            <form
+              class="contact__form"
+              id="contactForm"
+              action="https://formsubmit.co/tviktorialogopedia@gmail.com"
+              method="POST"
+            >
+              <!-- Hova térjen vissza sikeres küldés után -->
+              <input
+                type="hidden"
+                name="_next"
+                value="https://terjekiviktorialogopedia.hu/#contact"
+              />
+
+              <!-- Kapcsoljuk ki a FormSubmit saját captcháját -->
+              <input type="hidden" name="_captcha" value="false" />
+
+              <div class="contact__inputs">
+                <input
+                  type="text"
+                  placeholder="Szülő / gondviselő / érintett neve"
+                  name="name"
+                  class="contact__input"
+                  id="formName"
+                  required
+                />
+                <input
+                  type="tel"
+                  placeholder="Kapcsolatfelvételi telefonszám"
+                  name="phone"
+                  class="contact__input"
+                  id="formPhone"
+                  required
+                />
+              </div>
+
+              <input
+                type="text"
+                name="subject"
+                placeholder="Gyermek / érintett születési dátuma"
+                class="contact__input"
+                id="formSubject"
+                required
+              />
+
+              <textarea
+                name="message"
+                placeholder="Röviden írja le, milyen problémával keresnek fel!"
+                class="contact__input"
+                id="formMessage"
+                cols="40"
+                rows="10"
+                required
+              ></textarea>
+
+              <label style="display:block; margin: 12px 0; font-size: 0.95rem; line-height: 1.4;">
+                <input type="checkbox" name="consent" required />
+                Elolvastam és elfogadom az
+                <a href="/adatkezeles.html" target="_blank" rel="noopener">Adatkezelési tájékoztatót</a>.
+              </label>
+
+              <input
+                type="submit"
+                class="button contact__button"
+                id="formButton"
+                value="Üzenet küldése"
+              />
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <div>
+        <p class="footer__copy">
+          © 2025 Terjéki Viktória – minden jog fenntartva ·
+          <a href="/adatkezeles.html" style="color: inherit; text-decoration: underline;">
+            Adatkezelési tájékoztató
+          </a>.
+          <a href="./impresszum.html">Impresszum</a>
+        </p>
+      </div>
+    </footer>
 
     <!--===== JS =====-->
     <script src="js/main.js"></script>
