@@ -829,8 +829,3 @@ img {
   transform: rotate(45deg);
   border-radius: 4px;
 }
-/* IDEIGLENES: Árak (4. box) elrejtése */
-.prices-box { 
-  display: none !important; 
-}
-
