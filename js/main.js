@@ -77,4 +77,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.history.replaceState({}, "", newUrl);
   }
+  // IDEIGLENES: Árak box elrejtése
+document.querySelectorAll(".services__content").forEach((box) => {
+  const title = box.querySelector(".services__title");
+  if (title && title.textContent.trim() === "Árak") {
+    box.style.display = "none";
+  }
+
 });
+
